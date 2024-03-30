@@ -3,7 +3,7 @@
 </script>
 
 <Accordion autocollapse>
-    <AccordionItem>
+    <AccordionItem open>
         <svelte:fragment slot="lead"><i class="fa-solid fa-file-word"></svelte:fragment>
         <svelte:fragment slot="summary">Can you give at least 3 words to describe the past month/week?</svelte:fragment>
         <svelte:fragment slot="content">
@@ -83,7 +83,7 @@
                     They both do deserve some love and attention every now and then, and I'm here to provide.
         </svelte:fragment>
     </AccordionItem>
-    <AccordionItem open>
+    <AccordionItem>
         <svelte:fragment slot="lead"><i class="fa-solid fa-users"/></svelte:fragment>
         <svelte:fragment slot="summary">Anything we can do at Internals or for DevelUP as a whole to help you out?</svelte:fragment>
         <svelte:fragment slot="content">
